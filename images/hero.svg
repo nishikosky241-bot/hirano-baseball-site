@@ -25,74 +25,68 @@
   <!-- sky -->
   <rect width="1600" height="640" fill="url(#sky)"/>
 
-  <!-- sun: near center-right, above the school roof -->
-  <circle cx="1020" cy="92" r="105" fill="url(#glow)"/>
-  <circle cx="1020" cy="92" r="56" fill="url(#sun)"/>
+  <!-- sun: above the school roof, clear of the text -->
+  <circle cx="945" cy="88" r="92" fill="url(#glow)"/>
+  <circle cx="945" cy="88" r="48" fill="url(#sun)"/>
 
-  <!-- clouds -->
-  <g fill="#ffffff" opacity="0.95">
-    <g transform="translate(300,110)">
-      <ellipse cx="0" cy="0" rx="62" ry="22"/>
-      <ellipse cx="46" cy="-12" rx="42" ry="19"/>
-      <ellipse cx="-50" cy="-7" rx="38" ry="16"/>
+  <!-- clouds: kept to the far edges, away from the text -->
+  <g fill="#ffffff" opacity="0.9">
+    <g transform="translate(130,120)">
+      <ellipse cx="0" cy="0" rx="56" ry="20"/>
+      <ellipse cx="42" cy="-11" rx="38" ry="17"/>
     </g>
-    <g transform="translate(640,66)" opacity="0.9">
-      <ellipse cx="0" cy="0" rx="44" ry="15"/>
-      <ellipse cx="32" cy="-9" rx="28" ry="12"/>
-    </g>
-    <g transform="translate(1430,120)" opacity="0.85">
+    <g transform="translate(1470,110)" opacity="0.85">
       <ellipse cx="0" cy="0" rx="48" ry="17"/>
       <ellipse cx="36" cy="-10" rx="30" ry="13"/>
     </g>
-  </g>
-
-  <!-- birds -->
-  <g stroke="#3d6f96" stroke-width="3.5" fill="none" stroke-linecap="round">
-    <path d="M700 150 q10 -10 20 0 q10 -10 20 0"/>
-    <path d="M770 124 q8 -8 16 0 q8 -8 16 0"/>
-  </g>
-
-  <!-- school building (centered right) -->
-  <g>
-    <rect x="860" y="200" width="480" height="246" fill="#f4efe6"/>
-    <rect x="860" y="200" width="480" height="14" fill="#d8d2c4"/>
-    <!-- rooftop fence -->
-    <g stroke="#9aa4b5" stroke-width="3">
-      <path d="M860 190 L1340 190"/>
-      <path d="M870 190 L870 200"/><path d="M910 190 L910 200"/><path d="M950 190 L950 200"/>
-      <path d="M990 190 L990 200"/><path d="M1030 190 L1030 200"/><path d="M1070 190 L1070 200"/>
-      <path d="M1110 190 L1110 200"/><path d="M1150 190 L1150 200"/><path d="M1190 190 L1190 200"/>
-      <path d="M1230 190 L1230 200"/><path d="M1270 190 L1270 200"/><path d="M1310 190 L1310 200"/>
-      <path d="M1330 190 L1330 200"/>
+    <g transform="translate(1180,64)" opacity="0.8">
+      <ellipse cx="0" cy="0" rx="36" ry="13"/>
+      <ellipse cx="26" cy="-8" rx="22" ry="10"/>
     </g>
-    <!-- clock -->
-    <circle cx="1000" cy="240" r="25" fill="#fff" stroke="#1a2b5e" stroke-width="5"/>
-    <path d="M1000 240 L1000 225" stroke="#1a2b5e" stroke-width="4" stroke-linecap="round"/>
-    <path d="M1000 240 L1011 246" stroke="#1a2b5e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- birds: high on the right, off the text -->
+  <g stroke="#3d6f96" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M1060 140 q9 -9 18 0 q9 -9 18 0"/>
+    <path d="M1120 118 q7 -7 14 0 q7 -7 14 0"/>
+  </g>
+
+  <!-- school building: a bit smaller, no clock -->
+  <g>
+    <rect x="856" y="262" width="360" height="186" fill="#f4efe6"/>
+    <rect x="856" y="262" width="360" height="11" fill="#d8d2c4"/>
+    <!-- rooftop fence -->
+    <g stroke="#9aa4b5" stroke-width="2.5">
+      <path d="M856 254 L1216 254"/>
+      <path d="M866 254 L866 262"/><path d="M901 254 L901 262"/><path d="M936 254 L936 262"/>
+      <path d="M971 254 L971 262"/><path d="M1006 254 L1006 262"/><path d="M1041 254 L1041 262"/>
+      <path d="M1076 254 L1076 262"/><path d="M1111 254 L1111 262"/><path d="M1146 254 L1146 262"/>
+      <path d="M1181 254 L1181 262"/><path d="M1206 254 L1206 262"/>
+    </g>
     <!-- windows: 3 floors -->
-    <g fill="#a8d4ee" stroke="#8fb6cf" stroke-width="2">
-      <rect x="884" y="276" width="52" height="38" rx="2"/><rect x="952" y="276" width="52" height="38" rx="2"/>
-      <rect x="1020" y="276" width="52" height="38" rx="2"/><rect x="1156" y="276" width="52" height="38" rx="2"/>
-      <rect x="1224" y="276" width="52" height="38" rx="2"/><rect x="1292" y="276" width="32" height="38" rx="2"/>
-      <rect x="884" y="332" width="52" height="38" rx="2"/><rect x="952" y="332" width="52" height="38" rx="2"/>
-      <rect x="1020" y="332" width="52" height="38" rx="2"/><rect x="1156" y="332" width="52" height="38" rx="2"/>
-      <rect x="1224" y="332" width="52" height="38" rx="2"/><rect x="1292" y="332" width="32" height="38" rx="2"/>
-      <rect x="884" y="388" width="52" height="38" rx="2"/><rect x="952" y="388" width="52" height="38" rx="2"/>
-      <rect x="1020" y="388" width="52" height="38" rx="2"/><rect x="1156" y="388" width="52" height="38" rx="2"/>
-      <rect x="1224" y="388" width="52" height="38" rx="2"/><rect x="1292" y="388" width="32" height="38" rx="2"/>
+    <g fill="#a8d4ee" stroke="#8fb6cf" stroke-width="1.6">
+      <rect x="874" y="284" width="40" height="28" rx="2"/><rect x="926" y="284" width="40" height="28" rx="2"/>
+      <rect x="978" y="284" width="40" height="28" rx="2"/><rect x="1082" y="284" width="40" height="28" rx="2"/>
+      <rect x="1134" y="284" width="40" height="28" rx="2"/><rect x="1186" y="284" width="22" height="28" rx="2"/>
+      <rect x="874" y="328" width="40" height="28" rx="2"/><rect x="926" y="328" width="40" height="28" rx="2"/>
+      <rect x="978" y="328" width="40" height="28" rx="2"/><rect x="1082" y="328" width="40" height="28" rx="2"/>
+      <rect x="1134" y="328" width="40" height="28" rx="2"/><rect x="1186" y="328" width="22" height="28" rx="2"/>
+      <rect x="874" y="372" width="40" height="28" rx="2"/><rect x="926" y="372" width="40" height="28" rx="2"/>
+      <rect x="978" y="372" width="40" height="28" rx="2"/><rect x="1082" y="372" width="40" height="28" rx="2"/>
+      <rect x="1134" y="372" width="40" height="28" rx="2"/><rect x="1186" y="372" width="22" height="28" rx="2"/>
     </g>
     <!-- entrance -->
-    <rect x="1088" y="384" width="60" height="62" fill="#c9d6e4" stroke="#8fb6cf" stroke-width="2"/>
-    <path d="M1118 384 L1118 446" stroke="#8fb6cf" stroke-width="2"/>
+    <rect x="1028" y="398" width="46" height="50" fill="#c9d6e4" stroke="#8fb6cf" stroke-width="1.6"/>
+    <path d="M1051 398 L1051 448" stroke="#8fb6cf" stroke-width="1.6"/>
   </g>
 
   <!-- trees -->
   <g>
-    <g transform="translate(1420,420)">
+    <g transform="translate(1330,420)">
       <rect x="-7" y="0" width="14" height="34" fill="#7a5230"/>
-      <circle cx="0" cy="-22" r="40" fill="#3c8c46"/>
-      <circle cx="-26" cy="-4" r="26" fill="#43a047"/>
-      <circle cx="26" cy="-4" r="26" fill="#2e7d32"/>
+      <circle cx="0" cy="-22" r="38" fill="#3c8c46"/>
+      <circle cx="-24" cy="-4" r="24" fill="#43a047"/>
+      <circle cx="24" cy="-4" r="24" fill="#2e7d32"/>
     </g>
     <g transform="translate(210,430)">
       <rect x="-7" y="0" width="14" height="30" fill="#7a5230"/>
@@ -101,17 +95,17 @@
     </g>
   </g>
 
-  <!-- backstop net: just left of center -->
+  <!-- backstop net: small, behind the batter -->
   <g>
-    <path d="M420 210 L420 470 L650 470 L650 316 Q540 210 420 210 Z" fill="url(#net)" opacity="0.45"/>
-    <path d="M420 210 L420 470 M650 316 L650 470 M420 210 Q540 210 650 316" fill="none" stroke="#5d6b8c" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
-    <path d="M420 470 L650 470" stroke="#5d6b8c" stroke-width="6" opacity="0.8"/>
+    <path d="M580 330 L580 470 L716 470 L716 388 Q652 330 580 330 Z" fill="url(#net)" opacity="0.4"/>
+    <path d="M580 330 L580 470 M716 388 L716 470 M580 330 Q652 330 716 388" fill="none" stroke="#5d6b8c" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+    <path d="M580 470 L716 470" stroke="#5d6b8c" stroke-width="5" opacity="0.75"/>
   </g>
 
   <!-- schoolyard dirt ground -->
   <path d="M0 452 Q 400 434 800 444 T 1600 448 L1600 640 L0 640 Z" fill="url(#ground)"/>
   <!-- grass edge along building -->
-  <path d="M760 452 Q 1150 438 1600 446 L1600 470 Q 1150 462 760 474 Z" fill="#4aa64f"/>
+  <path d="M780 452 Q 1150 438 1600 446 L1600 470 Q 1150 462 780 474 Z" fill="#4aa64f"/>
 
   <!-- field lines -->
   <path d="M800 640 L560 585 L800 535 L1040 585 Z" fill="none" stroke="#fff" stroke-width="5" opacity="0.95"/>
@@ -121,9 +115,9 @@
   <circle cx="800" cy="586" r="26" fill="#bd7c47"/>
   <path d="M430 620 Q 800 560 1170 620" fill="none" stroke="#fff" stroke-width="4" opacity="0.5"/>
 
-  <!-- kids in uniform: gathered near center -->
+  <!-- kids: tightly clustered around the center so phones show all three -->
   <!-- batter -->
-  <g transform="translate(645,468)">
+  <g transform="translate(700,472)">
     <circle cx="0" cy="-58" r="15" fill="#f2c197"/>
     <path d="M-15 -66 Q0 -80 15 -66 L17 -60 Q0 -72 -17 -60 Z" fill="#1a2b5e"/>
     <path d="M-11 -68 Q0 -82 11 -68 Q5 -75 0 -75 Q-5 -75 -11 -68 Z" fill="#1a2b5e"/>
@@ -134,7 +128,7 @@
     <g transform="rotate(-40 55 -75)"><rect x="42" y="-80" width="30" height="10" rx="5" fill="#c98a3f"/></g>
   </g>
   <!-- pitcher -->
-  <g transform="translate(810,430)">
+  <g transform="translate(815,432)">
     <circle cx="0" cy="-54" r="14" fill="#e8b083"/>
     <path d="M-14 -62 Q0 -76 14 -62 L16 -56 Q0 -68 -16 -56 Z" fill="#1a2b5e"/>
     <path d="M-10 -64 Q0 -78 10 -64 Q5 -71 0 -71 Q-5 -71 -10 -64 Z" fill="#1a2b5e"/>
@@ -144,7 +138,7 @@
     <circle cx="38" cy="-60" r="6" fill="#fff" stroke="#e8702a" stroke-width="1.5"/>
   </g>
   <!-- fielder -->
-  <g transform="translate(985,478)">
+  <g transform="translate(920,478)">
     <circle cx="0" cy="-50" r="14" fill="#f2c197"/>
     <path d="M-14 -58 Q0 -72 14 -58 L16 -52 Q0 -64 -16 -52 Z" fill="#1a2b5e"/>
     <path d="M-10 -60 Q0 -74 10 -60 Q5 -67 0 -67 Q-5 -67 -10 -60 Z" fill="#1a2b5e"/>

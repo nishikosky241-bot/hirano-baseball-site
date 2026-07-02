@@ -7,25 +7,37 @@
   </defs>
   <rect width="200" height="200" rx="14" fill="url(#bge)"/>
   <path d="M-10 150 L210 105 L210 118 L-10 163 Z" fill="#f57c00" opacity="0.35"/>
+  <!-- energy sparks -->
+  <g fill="#ffd54f" opacity="0.9">
+    <path d="M38 44 l3 7 8 1 -6 5 2 8 -7 -4 -7 4 2 -8 -6 -5 8 -1 Z"/>
+    <path d="M166 78 l2 5 6 1 -4 4 1 6 -5 -3 -5 3 1 -6 -4 -4 6 -1 Z"/>
+  </g>
   <!-- body -->
   <path d="M52 200 Q52 152 100 152 Q148 152 148 200 Z" fill="#2e7d32"/>
   <path d="M88 152 L100 168 L112 152 L106 148 L100 155 L94 148 Z" fill="#fdfdf8"/>
-  <!-- head (60s male) -->
+  <!-- raised fist arm (cheering) -->
+  <path d="M138 168 L158 120 L172 126 L152 176 Z" fill="#2e7d32"/>
+  <circle cx="166" cy="116" r="12" fill="#eebd8e"/>
+  <rect x="158" y="102" width="16" height="10" rx="5" fill="#eebd8e"/>
+  <!-- head (energetic, black hair) -->
   <rect x="84" y="126" width="32" height="30" rx="9" fill="#dda678"/>
   <circle cx="100" cy="106" r="30" fill="#eebd8e"/>
   <circle cx="70" cy="110" r="6" fill="#dda678"/><circle cx="130" cy="110" r="6" fill="#dda678"/>
-  <!-- gray sideburns -->
-  <path d="M72 96 Q70 112 76 120 L82 118 Q78 106 80 96 Z" fill="#c8c8c8"/>
-  <path d="M128 96 Q130 112 124 120 L118 118 Q122 106 120 96 Z" fill="#c8c8c8"/>
-  <!-- smile lines + gentle smile -->
-  <path d="M88 118 Q100 126 112 118" fill="none" stroke="#7a4a2a" stroke-width="4" stroke-linecap="round"/>
-  <path d="M82 112 Q80 116 82 120" stroke="#d19a6a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <path d="M118 112 Q120 116 118 120" stroke="#d19a6a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <circle cx="88" cy="104" r="4" fill="#2b1c10"/><circle cx="112" cy="104" r="4" fill="#2b1c10"/>
-  <!-- gray brows -->
-  <path d="M80 94 L96 92" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round"/>
-  <path d="M120 94 L104 92" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round"/>
-  <!-- cap -->
+  <!-- black sideburns -->
+  <path d="M72 94 Q70 110 75 118 L81 116 Q77 104 79 94 Z" fill="#20221f"/>
+  <path d="M128 94 Q130 110 125 118 L119 116 Q123 104 121 94 Z" fill="#20221f"/>
+  <!-- big open laughing mouth -->
+  <path d="M84 110 Q100 132 116 110 Q100 118 84 110 Z" fill="#8a3d2a"/>
+  <path d="M87 111 Q100 117 113 111 L111 116 Q100 121 89 116 Z" fill="#fff"/>
+  <!-- cheerful closed eyes (laughing) -->
+  <path d="M81 100 Q88 93 95 100" stroke="#20221f" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M105 100 Q112 93 119 100" stroke="#20221f" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- black brows -->
+  <path d="M79 90 L95 87" stroke="#20221f" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M121 90 L105 87" stroke="#20221f" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- cap with black hair fringe -->
+  <path d="M74 90 Q78 84 88 82 Q80 88 79 93 Z" fill="#20221f"/>
+  <path d="M126 90 Q122 84 112 82 Q120 88 121 93 Z" fill="#20221f"/>
   <path d="M72 92 Q72 62 100 62 Q128 62 128 92 Q114 84 100 84 Q86 84 72 92 Z" fill="#2e7d32"/>
   <path d="M126 90 Q152 92 156 102 Q134 98 122 98 Z" fill="#1a2b5e"/>
   <text x="100" y="82" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#fdfdf8" text-anchor="middle">H</text>
