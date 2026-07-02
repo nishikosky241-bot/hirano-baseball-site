@@ -113,7 +113,8 @@
   <rect x="791" y="528" width="18" height="14" fill="#fff"/>
   <rect x="1034" y="578" width="18" height="14" fill="#fff" transform="rotate(8 1043 585)"/>
   <circle cx="800" cy="586" r="26" fill="#bd7c47"/>
-  <path d="M430 620 Q 800 560 1170 620" fill="none" stroke="#fff" stroke-width="4" opacity="0.5"/>
+  <!-- home plate -->
+  <path d="M786 612 L814 612 L814 622 L800 632 L786 622 Z" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
 
   <!-- kids: tightly clustered around the center so phones show all three -->
   <!-- batter -->

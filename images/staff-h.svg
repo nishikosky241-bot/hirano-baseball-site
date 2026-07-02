@@ -25,9 +25,9 @@
   <path d="M80 110 Q77 117 82 122" fill="none" stroke="#d19a6a" stroke-width="2.5" stroke-linecap="round"/>
   <path d="M120 110 Q123 117 118 122" fill="none" stroke="#d19a6a" stroke-width="2.5" stroke-linecap="round"/>
   <circle cx="88" cy="102" r="4" fill="#2b1c10"/><circle cx="112" cy="102" r="4" fill="#2b1c10"/>
-  <!-- white brows: bushy -->
-  <path d="M78 92 Q86 87 96 90" stroke="#e0e0e0" stroke-width="5.5" fill="none" stroke-linecap="round"/>
-  <path d="M122 92 Q114 87 104 90" stroke="#e0e0e0" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <!-- black brows: bushy -->
+  <path d="M78 92 Q86 87 96 90" stroke="#26221e" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M122 92 Q114 87 104 90" stroke="#26221e" stroke-width="5.5" fill="none" stroke-linecap="round"/>
   <!-- cap: navy -->
   <path d="M72 90 Q72 60 100 60 Q128 60 128 90 Q114 82 100 82 Q86 82 72 90 Z" fill="#1a2b5e"/>
   <path d="M126 88 Q152 90 156 100 Q134 96 122 96 Z" fill="#16244d"/>
