@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bgi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#43a047"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="14" fill="url(#bgi)"/>
+  <path d="M-10 150 L210 105 L210 118 L-10 163 Z" fill="#f57c00" opacity="0.35"/>
+  <!-- body -->
+  <path d="M52 200 Q52 152 100 152 Q148 152 148 200 Z" fill="#fdfdf8"/>
+  <path d="M60 200 Q60 160 100 158 L100 200 Z" fill="#f0ede4"/>
+  <path d="M88 152 L100 168 L112 152 L106 148 L100 155 L94 148 Z" fill="#1a2b5e"/>
+  <!-- bat resting on shoulder -->
+  <g transform="rotate(-38 148 132)"><rect x="128" y="126" width="66" height="11" rx="5" fill="#c98a3f"/></g>
+  <!-- head: 60s -->
+  <rect x="84" y="126" width="32" height="30" rx="9" fill="#dda678"/>
+  <ellipse cx="100" cy="108" rx="30" ry="29" fill="#eebd8e"/>
+  <circle cx="70" cy="112" r="6" fill="#dda678"/><circle cx="130" cy="112" r="6" fill="#dda678"/>
+  <!-- gray goatee -->
+  <path d="M90 128 Q100 136 110 128 Q108 140 100 141 Q92 140 90 128 Z" fill="#c9c9c9"/>
+  <path d="M88 118 Q100 126 112 118" fill="none" stroke="#7a4a2a" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="88" cy="103" r="4" fill="#2b1c10"/><circle cx="112" cy="103" r="4" fill="#2b1c10"/>
+  <!-- gray brows -->
+  <path d="M79 93 L95 91" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M121 93 L105 91" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round"/>
+  <!-- cap: green -->
+  <path d="M72 90 Q72 60 100 60 Q128 60 128 90 Q114 82 100 82 Q86 82 72 90 Z" fill="#1b5e20"/>
+  <path d="M126 88 Q152 90 156 100 Q134 96 122 96 Z" fill="#f57c00"/>
+  <circle cx="100" cy="62" r="3.5" fill="#f57c00"/>
+</svg>

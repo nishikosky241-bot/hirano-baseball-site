@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16244d"/>
+      <stop offset="1" stop-color="#0d1830"/>
+    </linearGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f57c00" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f57c00"/>
+      <stop offset="1" stop-color="#ff9800" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="16" fill="url(#bgc)"/>
+
+  <!-- soft diagonal streaks -->
+  <g transform="rotate(-18 200 200)">
+    <rect x="-40" y="70" width="480" height="14" fill="url(#streak)" opacity="0.7"/>
+    <rect x="-40" y="94" width="480" height="5" fill="#2e7d32" opacity="0.6"/>
+    <rect x="-40" y="316" width="480" height="10" fill="url(#streak)" opacity="0.4"/>
+  </g>
+
+  <!-- stadium lights -->
+  <g fill="#ffd54f" opacity="0.85">
+    <circle cx="46" cy="46" r="4"/><circle cx="66" cy="38" r="3"/><circle cx="86" cy="46" r="4"/>
+    <circle cx="334" cy="52" r="4"/><circle cx="354" cy="44" r="3"/><circle cx="316" cy="44" r="3"/>
+  </g>
+
+  <!-- shoulders / team jacket, humble posture -->
+  <path d="M96 400 Q96 296 200 296 Q304 296 304 400 Z" fill="#1a2b5e"/>
+  <path d="M96 400 Q96 296 200 296 L200 400 Z" fill="#20366e" opacity="0.6"/>
+  <!-- jacket stripes -->
+  <path d="M124 322 L118 400 L134 400 L140 314 Z" fill="#f57c00"/>
+  <path d="M276 322 L282 400 L266 400 L260 314 Z" fill="#f57c00"/>
+  <!-- arms resting in front, hands politely clasped -->
+  <path d="M126 340 Q136 372 168 388 L186 392 L182 372 Q156 362 146 334 Z" fill="#20366e"/>
+  <path d="M274 340 Q264 372 232 388 L214 392 L218 372 Q244 362 254 334 Z" fill="#20366e"/>
+  <ellipse cx="192" cy="386" rx="15" ry="11" fill="#e8b083"/>
+  <ellipse cx="210" cy="386" rx="15" ry="11" fill="#dda678"/>
+  <!-- zipper collar -->
+  <path d="M176 300 L200 326 L224 300 L212 292 L200 306 L188 292 Z" fill="#fdfdf8"/>
+  <path d="M199 322 L201 322 L201 372 L199 372 Z" fill="#c9c9c9"/>
+
+  <!-- neck -->
+  <rect x="182" y="262" width="36" height="38" rx="11" fill="#dda678"/>
+
+  <!-- head -->
+  <path d="M148 214 Q148 160 200 160 Q252 160 252 214 Q252 250 236 266 Q220 282 200 282 Q180 282 164 266 Q148 250 148 214 Z" fill="#eebd8e"/>
+  <circle cx="148" cy="222" r="11" fill="#dda678"/>
+  <circle cx="252" cy="222" r="11" fill="#dda678"/>
+
+  <!-- warm gentle smile -->
+  <path d="M182 250 Q200 264 218 250" fill="none" stroke="#7a4a2a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- nose hint -->
+  <path d="M200 224 Q205 234 199 238" fill="none" stroke="#d19a6a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- kind eyes -->
+  <g fill="#2b1c10">
+    <circle cx="180" cy="212" r="6"/>
+    <circle cx="220" cy="212" r="6"/>
+  </g>
+  <circle cx="182" cy="210" r="2" fill="#fff"/>
+  <circle cx="222" cy="210" r="2" fill="#fff"/>
+  <!-- soft friendly brows -->
+  <path d="M166 199 Q180 194 192 198" stroke="#3f2c18" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M234 199 Q220 194 208 198" stroke="#3f2c18" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- cap shadow -->
+  <path d="M148 206 Q200 198 252 206 L252 212 Q200 204 148 212 Z" fill="#caa075" opacity="0.6"/>
+
+  <!-- cap -->
+  <path d="M144 202 Q144 138 200 138 Q256 138 256 202 Q228 188 200 188 Q172 188 144 202 Z" fill="#1a2b5e"/>
+  <path d="M144 202 Q144 138 200 138 L200 188 Q172 188 144 202 Z" fill="#22376f" opacity="0.7"/>
+  <path d="M144 200 Q200 182 256 200 L262 212 Q200 192 138 212 Z" fill="#16244d"/>
+  <!-- brim -->
+  <path d="M254 198 Q310 198 318 216 Q276 210 250 212 Z" fill="#f57c00"/>
+  <path d="M254 198 Q310 198 318 216 L314 218 Q276 212 252 212 Z" fill="#c96400"/>
+  <circle cx="200" cy="140" r="5" fill="#f57c00"/>
+  <text x="200" y="176" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#f57c00" text-anchor="middle">H</text>
+
+  <!-- whistle -->
+  <path d="M200 326 Q206 348 222 356" fill="none" stroke="#c9c9c9" stroke-width="4"/>
+  <rect x="218" y="350" width="20" height="13" rx="5" fill="#f57c00"/>
+</svg>

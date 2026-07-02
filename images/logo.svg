@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2b5e"/>
+      <stop offset="1" stop-color="#101f42"/>
+    </linearGradient>
+  </defs>
+  <!-- shield -->
+  <path d="M100 8 L182 36 V104 Q182 160 100 194 Q18 160 18 104 V36 Z" fill="url(#shield)" stroke="#f57c00" stroke-width="7"/>
+  <!-- inner field -->
+  <path d="M100 26 L166 48 V102 Q166 148 100 176 Q34 148 34 102 V48 Z" fill="#2e7d32"/>
+  <!-- baseball -->
+  <circle cx="100" cy="94" r="40" fill="#fdfdf8"/>
+  <path d="M74 64 Q 90 94 74 124" fill="none" stroke="#e8702a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M126 64 Q 110 94 126 124" fill="none" stroke="#e8702a" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#e8702a" stroke-width="3" stroke-linecap="round">
+    <path d="M78 76 L86 79"/><path d="M77 92 L86 93"/><path d="M78 110 L86 107"/>
+    <path d="M122 76 L114 79"/><path d="M123 92 L114 93"/><path d="M122 110 L114 107"/>
+  </g>
+  <!-- H initial -->
+  <text x="100" y="106" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#1a2b5e" text-anchor="middle">H</text>
+  <!-- banner -->
+  <path d="M30 140 L170 140 L160 162 L40 162 Z" fill="#f57c00"/>
+  <text x="100" y="157" font-family="sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="2">HIRANO</text>
+</svg>

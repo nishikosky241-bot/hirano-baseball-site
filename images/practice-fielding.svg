@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="14" fill="#e8ecf5"/>
+  <path d="M0 210 Q200 194 400 210 L400 280 L0 280 Z" fill="#3f9142"/>
+  <ellipse cx="200" cy="252" rx="150" ry="22" fill="#b06a3b"/>
+  <!-- rolling ball -->
+  <circle cx="95" cy="238" r="11" fill="#fff" stroke="#e8702a" stroke-width="2.5"/>
+  <g stroke="#9aa7c4" stroke-width="3" stroke-linecap="round">
+    <path d="M60 232 L78 232"/><path d="M55 242 L75 242"/>
+  </g>
+  <!-- fielder crouching -->
+  <g transform="translate(255,168)">
+    <circle cx="-14" cy="-46" r="20" fill="#e8b083"/>
+    <path d="M-34 -58 Q-14 -72 6 -58 L8 -52 Q-14 -64 -36 -52 Z" fill="#2e7d32"/>
+    <path d="M-30 -60 Q-14 -78 2 -60 Q-6 -68 -14 -68 Q-22 -68 -30 -60 Z" fill="#2e7d32"/>
+    <circle cx="-21" cy="-46" r="3" fill="#3b2a1e"/><circle cx="-8" cy="-46" r="3" fill="#3b2a1e"/>
+    <path d="M-20 -35 Q-14 -31 -8 -35" stroke="#8a5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- torso leaning forward -->
+    <path d="M-28 -28 Q-10 -22 4 -30 L16 20 Q-6 30 -32 18 Z" fill="#fdfdf8"/>
+    <!-- glove arm reaching down -->
+    <path d="M-26 -22 L-66 30 L-56 38 L-20 -10 Z" fill="#e8b083"/>
+    <circle cx="-66" cy="42" r="15" fill="#b06a3b"/>
+    <circle cx="-66" cy="42" r="9" fill="#8f4f2a"/>
+    <!-- bent legs -->
+    <path d="M-24 18 L-40 52 L-30 58 L-12 26 Z" fill="#1a2b5e"/>
+    <path d="M8 22 L14 58 L26 56 L20 20 Z" fill="#1a2b5e"/>
+    <ellipse cx="-36" cy="58" rx="12" ry="6" fill="#16244d"/>
+    <ellipse cx="22" cy="60" rx="12" ry="6" fill="#16244d"/>
+  </g>
+</svg>

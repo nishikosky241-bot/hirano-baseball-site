@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="14" fill="#fdf1e3"/>
+  <path d="M0 218 Q200 200 400 218 L400 280 L0 280 Z" fill="#3f9142"/>
+  <!-- batting tee -->
+  <g transform="translate(255,120)">
+    <rect x="-4" y="0" width="8" height="80" rx="3" fill="#444"/>
+    <ellipse cx="0" cy="82" rx="26" ry="8" fill="#333"/>
+    <circle cx="0" cy="-8" r="10" fill="#fff" stroke="#e8702a" stroke-width="2"/>
+  </g>
+  <!-- batter -->
+  <g transform="translate(150,150)">
+    <circle cx="10" cy="-58" r="20" fill="#f2c197"/>
+    <path d="M-10 -70 Q10 -86 30 -70 L32 -64 Q10 -76 -12 -64 Z" fill="#1a2b5e"/>
+    <path d="M-6 -72 Q10 -90 26 -72 Q18 -80 10 -80 Q2 -80 -6 -72 Z" fill="#1a2b5e"/>
+    <circle cx="4" cy="-58" r="3" fill="#3b2a1e"/><circle cx="17" cy="-58" r="3" fill="#3b2a1e"/>
+    <path d="M4 -47 Q11 -43 18 -47" stroke="#8a5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-8 -38 Q6 -30 20 -36 L26 14 Q6 22 -14 14 Z" fill="#fdfdf8"/>
+    <!-- arms holding bat -->
+    <path d="M16 -34 L58 -46 L60 -36 L20 -24 Z" fill="#f2c197"/>
+    <!-- bat -->
+    <g transform="rotate(-35 66 -44)">
+      <rect x="60" y="-50" width="86" height="13" rx="6" fill="#c98a3f"/>
+      <rect x="52" y="-48" width="12" height="9" rx="4" fill="#8f5a24"/>
+    </g>
+    <path d="M-8 16 L-16 64 L-6 64 L2 22 L12 64 L22 64 L16 16 Z" fill="#1a2b5e"/>
+  </g>
+  <!-- motion lines -->
+  <g stroke="#f57c00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M262 60 Q 300 44 330 66"/>
+    <path d="M270 84 Q 306 70 334 88"/>
+  </g>
+</svg>

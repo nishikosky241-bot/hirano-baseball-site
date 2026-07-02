@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="14" fill="#fff6e8"/>
+  <path d="M0 216 Q200 200 400 216 L400 280 L0 280 Z" fill="#3f9142"/>
+  <!-- bench -->
+  <rect x="60" y="196" width="280" height="14" rx="6" fill="#8f5a24"/>
+  <rect x="80" y="210" width="12" height="46" fill="#734718"/>
+  <rect x="308" y="210" width="12" height="46" fill="#734718"/>
+  <!-- parent 1 (mom cheering) -->
+  <g transform="translate(130,150)">
+    <circle cx="0" cy="-44" r="18" fill="#f2c197"/>
+    <path d="M-18 -50 Q-20 -72 0 -70 Q20 -72 18 -50 Q10 -62 0 -62 Q-10 -62 -18 -50 Z" fill="#5a4632"/>
+    <path d="M-18 -50 Q-22 -34 -14 -28 L-12 -46 Z" fill="#5a4632"/>
+    <path d="M18 -50 Q22 -34 14 -28 L12 -46 Z" fill="#5a4632"/>
+    <circle cx="-6" cy="-44" r="3" fill="#3b2a1e"/><circle cx="6" cy="-44" r="3" fill="#3b2a1e"/>
+    <path d="M-6 -35 Q0 -30 6 -35" stroke="#8a5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-14 -26 Q0 -18 14 -26 L18 24 Q0 32 -18 24 Z" fill="#f57c00"/>
+    <!-- raised arms -->
+    <path d="M-12 -22 L-38 -56 L-30 -62 L-6 -28 Z" fill="#f2c197"/>
+    <path d="M12 -22 L38 -56 L30 -62 L6 -28 Z" fill="#f2c197"/>
+    <!-- megaphone -->
+    <path d="M34 -66 L58 -78 L58 -54 Z" fill="#1a2b5e"/>
+  </g>
+  <!-- parent 2 (dad with drink jug) -->
+  <g transform="translate(272,152)">
+    <circle cx="0" cy="-44" r="18" fill="#e8b083"/>
+    <path d="M-16 -54 Q0 -68 16 -54 L18 -48 Q0 -60 -18 -48 Z" fill="#1a2b5e"/>
+    <path d="M-13 -56 Q0 -72 13 -56 Q6 -64 0 -64 Q-6 -64 -13 -56 Z" fill="#1a2b5e"/>
+    <circle cx="-6" cy="-44" r="3" fill="#3b2a1e"/><circle cx="6" cy="-44" r="3" fill="#3b2a1e"/>
+    <path d="M-6 -35 Q0 -30 6 -35" stroke="#8a5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-14 -26 Q0 -18 14 -26 L18 24 Q0 32 -18 24 Z" fill="#2e7d32"/>
+    <!-- arm holding jug -->
+    <path d="M12 -22 L36 4 L28 12 L6 -12 Z" fill="#e8b083"/>
+    <!-- water jug -->
+    <rect x="26" y="8" width="34" height="42" rx="8" fill="#1a2b5e"/>
+    <rect x="30" y="2" width="26" height="10" rx="4" fill="#f57c00"/>
+    <rect x="32" y="22" width="22" height="14" rx="3" fill="#eaf4ea"/>
+  </g>
+  <!-- flying hearts / stars -->
+  <g fill="#f57c00" opacity="0.85">
+    <path d="M196 60 l4 9 10 1 -7 7 2 10 -9-5 -9 5 2-10 -7-7 10-1 Z"/>
+    <path d="M96 44 l3 7 8 1 -6 5 2 8 -7-4 -7 4 2-8 -6-5 8-1 Z" opacity="0.7"/>
+    <path d="M312 52 l3 7 8 1 -6 5 2 8 -7-4 -7 4 2-8 -6-5 8-1 Z" opacity="0.7"/>
+  </g>
+</svg>

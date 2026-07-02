@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bgh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f57c00"/>
+      <stop offset="1" stop-color="#e8611a"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="14" fill="url(#bgh)"/>
+  <path d="M-10 150 L210 105 L210 118 L-10 163 Z" fill="#fff" opacity="0.25"/>
+  <!-- body -->
+  <path d="M52 200 Q52 152 100 152 Q148 152 148 200 Z" fill="#1a2b5e"/>
+  <path d="M88 152 L100 168 L112 152 L106 148 L100 155 L94 148 Z" fill="#fdfdf8"/>
+  <!-- glove -->
+  <circle cx="146" cy="182" r="16" fill="#8f4f2a"/>
+  <circle cx="146" cy="182" r="10" fill="#734018"/>
+  <!-- head: 60s, white hair visible -->
+  <rect x="84" y="126" width="32" height="30" rx="9" fill="#dda678"/>
+  <ellipse cx="100" cy="108" rx="30" ry="29" fill="#eebd8e"/>
+  <circle cx="70" cy="112" r="6" fill="#dda678"/><circle cx="130" cy="112" r="6" fill="#dda678"/>
+  <!-- white hair at sides -->
+  <path d="M71 94 Q68 112 73 122 L80 119 Q75 106 77 94 Z" fill="#e8e8e8"/>
+  <path d="M129 94 Q132 112 127 122 L120 119 Q125 106 123 94 Z" fill="#e8e8e8"/>
+  <!-- big smile -->
+  <path d="M85 114 Q100 128 115 114" fill="none" stroke="#7a4a2a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M80 110 Q77 117 82 122" fill="none" stroke="#d19a6a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120 110 Q123 117 118 122" fill="none" stroke="#d19a6a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="88" cy="102" r="4" fill="#2b1c10"/><circle cx="112" cy="102" r="4" fill="#2b1c10"/>
+  <!-- white brows: bushy -->
+  <path d="M78 92 Q86 87 96 90" stroke="#e0e0e0" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M122 92 Q114 87 104 90" stroke="#e0e0e0" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <!-- cap: navy -->
+  <path d="M72 90 Q72 60 100 60 Q128 60 128 90 Q114 82 100 82 Q86 82 72 90 Z" fill="#1a2b5e"/>
+  <path d="M126 88 Q152 90 156 100 Q134 96 122 96 Z" fill="#16244d"/>
+  <text x="100" y="80" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#f57c00" text-anchor="middle">H</text>
+</svg>

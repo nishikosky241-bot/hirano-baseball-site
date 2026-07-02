@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="14" fill="#eaf4ea"/>
+  <!-- ground -->
+  <path d="M0 218 Q200 200 400 218 L400 280 L0 280 Z" fill="#3f9142"/>
+  <!-- kid throwing -->
+  <g transform="translate(100,150)">
+    <circle cx="0" cy="-52" r="20" fill="#f2c197"/>
+    <path d="M-16 -66 Q0 -84 16 -66 Q8 -74 0 -74 Q-8 -74 -16 -66 Z" fill="#1a2b5e"/>
+    <path d="M-20 -64 Q0 -78 20 -64 L22 -58 Q0 -70 -22 -58 Z" fill="#1a2b5e"/>
+    <circle cx="-7" cy="-52" r="3" fill="#3b2a1e"/><circle cx="7" cy="-52" r="3" fill="#3b2a1e"/>
+    <path d="M-6 -42 Q0 -38 6 -42" stroke="#8a5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-14 -32 Q0 -24 14 -32 L18 18 Q0 26 -18 18 Z" fill="#fdfdf8"/>
+    <path d="M-14 -32 L-15 -8 L-8 -8 L-8 -30 Z" fill="#2e7d32"/>
+    <path d="M12 -28 L44 -58 L52 -50 L20 -20 Z" fill="#f2c197"/>
+    <circle cx="50" cy="-58" r="8" fill="#fff" stroke="#e8702a" stroke-width="2"/>
+    <path d="M-12 20 L-18 66 L-8 66 L-2 26 L6 66 L16 66 L12 20 Z" fill="#1a2b5e"/>
+  </g>
+  <!-- ball path -->
+  <path d="M158 88 Q 200 48 250 82" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="7 7"/>
+  <!-- kid catching -->
+  <g transform="translate(305,155)">
+    <circle cx="0" cy="-52" r="20" fill="#e8b083"/>
+    <path d="M-20 -64 Q0 -78 20 -64 L22 -58 Q0 -70 -22 -58 Z" fill="#2e7d32"/>
+    <path d="M-16 -66 Q0 -84 16 -66 Q8 -74 0 -74 Q-8 -74 -16 -66 Z" fill="#2e7d32"/>
+    <circle cx="-7" cy="-52" r="3" fill="#3b2a1e"/><circle cx="7" cy="-52" r="3" fill="#3b2a1e"/>
+    <path d="M-6 -42 Q0 -38 6 -42" stroke="#8a5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-14 -32 Q0 -24 14 -32 L18 18 Q0 26 -18 18 Z" fill="#fdfdf8"/>
+    <path d="M-12 -28 L-46 -52 L-52 -44 L-20 -20 Z" fill="#e8b083"/>
+    <circle cx="-52" cy="-52" r="14" fill="#b06a3b"/>
+    <circle cx="-52" cy="-52" r="9" fill="#8f4f2a"/>
+    <path d="M-12 20 L-18 66 L-8 66 L-2 26 L6 66 L16 66 L12 20 Z" fill="#1a2b5e"/>
+  </g>
+</svg>

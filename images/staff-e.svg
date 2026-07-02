@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2b5e"/>
+      <stop offset="1" stop-color="#16244d"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="14" fill="url(#bge)"/>
+  <path d="M-10 150 L210 105 L210 118 L-10 163 Z" fill="#f57c00" opacity="0.35"/>
+  <!-- body -->
+  <path d="M52 200 Q52 152 100 152 Q148 152 148 200 Z" fill="#2e7d32"/>
+  <path d="M88 152 L100 168 L112 152 L106 148 L100 155 L94 148 Z" fill="#fdfdf8"/>
+  <!-- head (60s male) -->
+  <rect x="84" y="126" width="32" height="30" rx="9" fill="#dda678"/>
+  <circle cx="100" cy="106" r="30" fill="#eebd8e"/>
+  <circle cx="70" cy="110" r="6" fill="#dda678"/><circle cx="130" cy="110" r="6" fill="#dda678"/>
+  <!-- gray sideburns -->
+  <path d="M72 96 Q70 112 76 120 L82 118 Q78 106 80 96 Z" fill="#c8c8c8"/>
+  <path d="M128 96 Q130 112 124 120 L118 118 Q122 106 120 96 Z" fill="#c8c8c8"/>
+  <!-- smile lines + gentle smile -->
+  <path d="M88 118 Q100 126 112 118" fill="none" stroke="#7a4a2a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M82 112 Q80 116 82 120" stroke="#d19a6a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M118 112 Q120 116 118 120" stroke="#d19a6a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="88" cy="104" r="4" fill="#2b1c10"/><circle cx="112" cy="104" r="4" fill="#2b1c10"/>
+  <!-- gray brows -->
+  <path d="M80 94 L96 92" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M120 94 L104 92" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round"/>
+  <!-- cap -->
+  <path d="M72 92 Q72 62 100 62 Q128 62 128 92 Q114 84 100 84 Q86 84 72 92 Z" fill="#2e7d32"/>
+  <path d="M126 90 Q152 92 156 102 Q134 98 122 98 Z" fill="#1a2b5e"/>
+  <text x="100" y="82" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#fdfdf8" text-anchor="middle">H</text>
+</svg>
