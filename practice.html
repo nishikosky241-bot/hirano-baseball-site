@@ -25,7 +25,8 @@
       <a href="https://www.instagram.com/hirano_baseballclub/" target="_blank" rel="noopener" class="nav-insta">Instagram</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="メニューを開く">
-      <span></span><span></span><span></span>
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      <span class="nav-toggle-text">メニュー</span>
     </button>
   </div>
 </header>
@@ -87,6 +88,10 @@
   <p class="copyright">© 2026 Hirano Baseball Club</p>
 </footer>
 
+<button class="to-top" id="toTop" aria-label="ページの先頭へ戻る">
+  <span class="arrow">▲</span><span class="label">TOP</span>
+</button>
+
 <script>
   const toggle = document.getElementById('navToggle');
   const nav = document.getElementById('globalNav');
@@ -100,6 +105,12 @@
       toggle.classList.remove('open');
     })
   );
+
+  const toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', () => {
+    toTop.classList.toggle('show', window.scrollY > 400);
+  });
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 </script>
 </body>
 </html>
