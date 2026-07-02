@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>練習備忘録 | 平野スポーツ少年団（野球）</title>
+<meta name="description" content="平野スポーツ少年団（野球）の練習備忘録。おうちでもできるキャッチボール・バッティング・守備の基本ポイントを紹介します。">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <img src="images/logo.svg" alt="平野スポーツ少年団エンブレム" class="brand-logo">
+      <span class="brand-name">平野スポーツ少年団<small>HIRANO BASEBALL CLUB</small></span>
+    </a>
+    <nav class="global-nav" id="globalNav">
+      <a href="index.html#greeting">監督挨拶</a>
+      <a href="staff.html">スタッフ</a>
+      <a href="index.html#schedule">予定表</a>
+      <a href="practice.html">練習備忘録</a>
+      <a href="index.html#parents">保護者の皆様へ</a>
+      <a href="https://www.instagram.com/hirano_baseballclub/" target="_blank" rel="noopener" class="nav-insta">Instagram</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-hero">
+    <h1><span class="title-en">PRACTICE</span>練習備忘録</h1>
+    <p>おうちでもできる基本練習のポイントをまとめました。1日10分の積み重ねが、大きな差になります。</p>
+  </div>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="practice-grid">
+        <article class="practice-card">
+          <img src="images/practice-catch.svg" alt="キャッチボールをする子どもたちのイラスト">
+          <div class="practice-body">
+            <h3><span class="num">01</span>キャッチボール</h3>
+            <ul>
+              <li>相手の<strong>胸をめがけて</strong>投げるのが基本。「ナイスボール！」と声をかけ合おう</li>
+              <li>捕るときはグローブを体の正面に。<strong>両手で捕る</strong>クセをつける</li>
+              <li>投げるときは相手に<strong>横向き</strong>になり、ヒジを肩より高く上げる</li>
+            </ul>
+          </div>
+        </article>
+        <article class="practice-card">
+          <img src="images/practice-batting.svg" alt="ティーバッティングをする子どものイラスト">
+          <div class="practice-body">
+            <h3><span class="num">02</span>バッティング</h3>
+            <ul>
+              <li>構えは<strong>肩の力を抜いて</strong>リラックス。ギュッと握るのは当たる瞬間だけ</li>
+              <li>ボールを<strong>最後までよく見る</strong>。頭を動かさないのがコツ</li>
+              <li>素振りは回数より質。<strong>1回1回止めて</strong>フォームを確認しよう</li>
+            </ul>
+          </div>
+        </article>
+        <article class="practice-card">
+          <img src="images/practice-fielding.svg" alt="ゴロを捕る子どものイラスト">
+          <div class="practice-body">
+            <h3><span class="num">03</span>守備（ゴロ捕り）</h3>
+            <ul>
+              <li>腰を落として<strong>グローブは地面から</strong>。ボールは下から上に見る</li>
+              <li>正面に入るのが基本。<strong>足を動かして</strong>ボールを迎えにいく</li>
+              <li>捕ってから投げるまでを<strong>ひとつの流れ</strong>で。毎日壁当て10分！</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <p class="back-home"><a href="index.html" class="btn btn-orange">トップページに戻る</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <img src="images/logo.svg" alt="" class="footer-logo">
+  <p class="footer-name">平野スポーツ少年団（野球）</p>
+  <p><a href="https://www.instagram.com/hirano_baseballclub/" target="_blank" rel="noopener">Instagram @hirano_baseballclub</a></p>
+  <p class="copyright">© 2026 Hirano Baseball Club</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('globalNav');
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    toggle.classList.toggle('open');
+  });
+  nav.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.classList.remove('open');
+    })
+  );
+</script>
+</body>
+</html>

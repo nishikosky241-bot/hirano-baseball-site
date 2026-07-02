@@ -322,6 +322,85 @@ img { max-width: 100%; display: block; }
 /* ===== 指導者・スタッフ紹介 ===== */
 .section-staff { background: var(--green-pale); }
 
+/* トップページのコンパクト版 */
+.staff-teaser { padding: 56px 24px; }
+.staff-teaser .section-inner { text-align: center; }
+
+.staff-teaser .section-title {
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.teaser-avatars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.teaser-avatars img,
+.teaser-more {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 3px 10px rgba(16,31,66,0.18);
+  margin: 0 -7px;
+  background: #fff;
+}
+
+.teaser-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--navy);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.teaser-text { margin-bottom: 22px; font-size: 1rem; }
+
+/* トップページの練習ノウハウ コンパクト版 */
+.practice-teaser { padding: 56px 24px; }
+.practice-teaser .section-inner { text-align: center; }
+.practice-teaser .section-title { align-items: center; margin-bottom: 24px; }
+
+.teaser-thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.teaser-thumbs img {
+  width: 150px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(16,31,66,0.16);
+}
+
+/* サブページ共通 */
+.page-hero {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: #fff;
+  text-align: center;
+  padding: 54px 24px 58px;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.page-hero p { margin-top: 12px; opacity: 0.92; font-size: 1rem; }
+
+.back-home { text-align: center; margin-top: 44px; }
+
 .staff-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -631,6 +710,80 @@ img { max-width: 100%; display: block; }
   .hero { min-height: 460px; }
   .news-bar { flex-direction: column; align-items: flex-start; gap: 8px; margin: 16px 16px 0; }
   .section { padding: 56px 18px; }
+}
+
+/* ===== スマホの文字を読みやすく ===== */
+@media (max-width: 640px) {
+  body { line-height: 2; }
+
+  .news-bar { font-size: 1rem; }
+
+  .hero-sub { font-size: 1.1rem; }
+
+  .greeting-lead { font-size: 1.2rem; }
+  .greeting-text p { font-size: 1rem; }
+
+  .staff-body h3 { font-size: 1.2rem; }
+  .staff-body p { font-size: 0.98rem; }
+
+  .practice-body li { font-size: 1rem; padding-left: 24px; }
+  .duty-card li { font-size: 1rem; }
+  .duty-card h3 { font-size: 1.12rem; }
+
+  .timetree-card { padding: 24px 22px; flex-direction: column; gap: 10px; }
+  .timetree-lead { font-size: 1.05rem; }
+  .timetree-text { font-size: 1rem; }
+  .schedule-note { font-size: 1rem; }
+  .parents-note { font-size: 1rem; }
+
+  /* 予定表を横スクロール表からカード式に変更 */
+  .table-wrap { overflow-x: visible; box-shadow: none; }
+
+  .schedule-table { min-width: 0; display: block; background: none; }
+  .schedule-table thead { display: none; }
+  .schedule-table tbody { display: block; }
+
+  .schedule-table tr {
+    display: block;
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 14px;
+    padding: 14px 18px 16px;
+  }
+
+  .schedule-table tbody tr:nth-child(even) { background: #fff; }
+
+  .schedule-table td {
+    display: block;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* 日付と曜日を1行に */
+  .schedule-table td:nth-child(1),
+  .schedule-table td:nth-child(2) {
+    display: inline-block;
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-right: 6px;
+  }
+
+  /* 予定名 */
+  .schedule-table td:nth-child(3) {
+    font-weight: 700;
+    color: var(--navy);
+    margin-top: 4px;
+    font-size: 1.05rem;
+  }
+
+  /* 時間・場所 */
+  .schedule-table td:nth-child(4) {
+    color: #555;
+    margin-top: 2px;
+  }
 }
 
 /* ===== スマホの文字を読みやすく ===== */
